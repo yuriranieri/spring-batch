@@ -1,0 +1,14 @@
+2022-02-08 11:01:14,766 INFO c.e.c.CursoSpringBatchApplication [main] Starting CursoSpringBatchApplication using Java 11.0.2 on CTNDELLBZGF0D3 with PID 7632 (C:\Users\yuri.ranieri\intelijUltimate\curso-spring-batch\target\classes started by yuri.ranieri in C:\Users\yuri.ranieri\intelijUltimate\curso-spring-batch)
+2022-02-08 11:01:14,768 INFO c.e.c.CursoSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-02-08 11:01:15,108 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-02-08 11:01:15,224 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-08 11:01:15,426 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-08 11:01:15,521 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-08 11:01:15,578 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-08 11:01:15,643 INFO c.e.c.CursoSpringBatchApplication [main] Started CursoSpringBatchApplication in 1.367 seconds (JVM running for 2.25)
+2022-02-08 11:01:15,738 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{name=tchury, run.id=6}]
+2022-02-08 11:01:15,770 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-02-08 11:01:15,799 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 29ms
+2022-02-08 11:01:15,833 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{name=tchury, run.id=6}] and the following status: [COMPLETED] in 58ms
+2022-02-08 11:01:15,837 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-02-08 11:01:15,845 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
